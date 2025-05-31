@@ -8,6 +8,7 @@ public class Sample {
             return;
         }
         System.out.println(n);
+        //this is called tail recursion
         print(n+1);
 
     }
