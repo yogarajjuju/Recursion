@@ -1,6 +1,6 @@
 public class Fibo {
     public static void main(String[] args) {
-        System.out.println(fibo(4));
+        System.out.println(fibo(50));
     }
     static int fibo(int n){
         if(n<2){
