@@ -5,7 +5,7 @@ import java.sql.SQLOutput;
 public class RBS {
     public static void main(String[] args) {
         int arr[]={5,6,1,2,3,4};
-        int target = 6;
+        int target = 4;
         System.out.println(bs(arr,target,0,arr.length-1));
 
     }
