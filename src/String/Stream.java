@@ -20,7 +20,7 @@ public class Stream {
             skip(p+ch ,up.substring(1));
         }
     }
-    static String skip(String up){// using a single augments 
+    static String skip(String up){// using a single augments
         if(up.isEmpty()){
            return "";
 
