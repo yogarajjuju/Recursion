@@ -1,5 +1,4 @@
-package Arrays;
-import java.util.*;
+package Backtracking;
 
 public class PathObst {
     public static void main(String[] args) {
