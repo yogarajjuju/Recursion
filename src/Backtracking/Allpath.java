@@ -2,11 +2,20 @@ package Backtracking;
 
 public class Allpath {
     public static void main(String[] args) {
+        boolean maze[][]= {{true,true,true},
+                {true,false,true},
+                {true,true,true}
+
+        };
+        allpath("",maze,0,0);
 
     }
     static void allpath(String p ,boolean[][]maze, int r,int c){
         if(r== maze.length-1&&c==maze[0].length-1){
             System.out.println(p);
+            return;
+        }
+        if(!maze[r][c]){
             return;
         }
         if(r< maze.length-1){
